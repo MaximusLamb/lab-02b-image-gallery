@@ -1,0 +1,44 @@
+li {
+    list-style: none;
+    margin: top;
+    padding: 30px;
+    
+}
+
+.gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 10px;
+
+}
+
+.sword-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: flex;
+}
+
+.sword-description {
+    font-size: 20px;
+    height: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+li2 {
+    display: flex;
+    flex-wrap: row;
+}
